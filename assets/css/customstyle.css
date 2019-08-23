@@ -1,0 +1,77 @@
+/** Header Area **/
+
+  .header-area {
+    background: none;
+    position: fixed;
+    width: 100%;
+  }
+
+  .main-menu {
+      background: none;
+  }
+
+  .slider-content {
+    position: fixed !important;
+    top: 70% !important;
+  }
+
+  .top-info p {
+    color: #fff;
+  }
+  ul.main-menu li a {
+    color: #fff;
+  }
+  ul.main-menu > li.dropdown ul li a {
+    color: #61656F;
+  }
+  ul.main-menu > li.dropdown ul li a:hover {
+    color: #a6ce39;
+  }
+  ul.main-menu > li {
+    text-decoration: underline;
+
+  }
+/** Footer **/
+  .home_footer {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    font-size: 10px;
+  }
+  .home_footer p {
+    color: #fff;
+    font-size: 10px;
+  }
+
+  /* For mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      background-image: url(assets/images/backmobile3.jpg);
+      background-position: left
+      }
+     .wrapper {
+      min-height: 400px;
+      }
+      .sliderslogan {
+      text-align: left;
+      }
+      .home_footer {
+        left: 11% !important;
+      }
+
+  }
+
+  @media (max-width: 991px) {
+    .header-area {
+      z-index: 6;
+    }
+    .navbar-collapse.collapse.in {
+      background: white;
+    }
+    ul.main-menu li a {
+      color: #61656F;
+    }
+    ul.main-menu > li {
+      text-decoration: none;
+    }
+  }
